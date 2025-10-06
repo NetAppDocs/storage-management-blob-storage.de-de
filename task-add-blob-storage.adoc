@@ -1,0 +1,103 @@
+---
+sidebar: sidebar 
+permalink: task-add-blob-storage.html 
+keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, add storage accounts, netapp console, system 
+summary: Sobald Ihr Azure Blob Storage-System auf der Systemseite der NetApp -Konsole verfügbar ist, können Sie weitere Speicherkonten direkt von der Konsole aus hinzufügen. 
+---
+= Azure Blob-Speicherkonten in der NetApp Konsole hinzufügen
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sobald Ihr Azure Blob Storage-System auf der Systemseite der NetApp -Konsole verfügbar ist, können Sie weitere Speicherkonten direkt von der Konsole aus hinzufügen.
+
+.Schritte
+. Wählen Sie auf der Seite „Systeme“ das Azure Blob Storage-System aus, um dessen Übersichtsseite anzuzeigen.
+. Wählen Sie *Speicherkonto hinzufügen*.
++
+image:screenshot-add-blob-storage-button.png["Ein Screenshot, der die Details eines Azure Blob Storage-Systems und die Schaltfläche „Speicherkonto hinzufügen“ zeigt."]
+
++
+Die Seite _Speicherkonto hinzufügen_ wird angezeigt.
+
++
+image:screenshot-add-blob-storage.png["Ein Screenshot, der die Seite „Speicherkonto hinzufügen“ zeigt, damit Sie Ihre eigenen Azure Blob-Speicherkonten erstellen können."]
+
+. Geben Sie die erforderlichen Informationen im Abschnitt _Projektdetails_ ein.
++
+[cols="25,75"]
+|===
+| Feld | Beschreibung 
+
+
+| Abonnement | Wählen Sie das Azure-Abonnement für das neue Speicherkonto aus. 
+
+
+| Ressourcengruppe  a| 
+Wählen Sie eine vorhandene Ressourcengruppe für dieses Speicherkonto aus.
+
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal["Weitere Informationen zu Ressourcengruppen"^] .
+
+|===
+. Geben Sie im Abschnitt „Instanzdetails“ den Namen für das Speicherkonto ein und wählen Sie eine oder mehrere Regionen aus, in denen das Speicherkonto erstellt werden soll.
++
+[cols="25,75"]
+|===
+| Feld | Beschreibung 
+
+
+| Speicherkontoname | Geben Sie den Namen ein, den Sie für das Speicherkonto verwenden möchten.  Der Name muss zwischen 3 und 24 Zeichen lang sein und darf nur Zahlen und Kleinbuchstaben enthalten. 
+
+
+| Azure Region  a| 
+Wählen Sie aus der Liste eine Region aus, in der das Speicherkonto erstellt werden soll.
+
+Wählen Sie die entsprechende Region für Ihr Speicherkonto aus. https://learn.microsoft.com/en-us/azure/availability-zones/az-overview["Informationen zu Azure-Regionen und Verfügbarkeitszonen finden Sie in der Microsoft-Dokumentation."^] .
+
+Nicht alle Regionen werden für alle Arten von Speicherkonten oder Redundanzkonfigurationen unterstützt. https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy["Informationen zur Azure Storage-Redundanz finden Sie in der Microsoft-Dokumentation."^] .
+
+Darüber hinaus kann die Wahl der Region Auswirkungen auf die Abrechnung haben. https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#storage-account-billing["Informationen zur Abrechnung von Azure Storage-Konten finden Sie in der Microsoft-Dokumentation."^] .
+
+
+
+| Leistungstyp  a| 
+Wählen Sie aus, ob Sie den Performance-Speicher *Standard* oder *Premium* verwenden möchten. https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#types-of-storage-accounts["Informationen zu Speicherkontotypen finden Sie in der Microsoft-Dokumentation."^] .
+
+** Für allgemeine Speicherkonten der Version v2 wird die _Standard_-Leistung verwendet.  Dieser Kontotyp wird für die meisten Szenarien empfohlen.
+** Die _Premium_-Leistung wird für Szenarien verwendet, die eine geringe Latenz erfordern.  Es stehen drei Arten von Premium-Speicherkonten zur Verfügung: Blockblobs, Dateifreigaben und Seitenblobs.
+
+
+|===
+. Im Abschnitt _Tags_ können Sie bis zu 10 Tag-Schlüssel/Wert-Paare eingeben, um Ihre Ressourcen zu gruppieren.
++
+Tags sind Metadaten, die Sie zum Gruppieren von Ressourcen verwenden können, um Anwendungen, Umgebungen, Regionen, Cloud-Anbieter und mehr zu identifizieren. Sie können einem Speicherkonto Tags hinzufügen, sodass die Tags auf Objekte angewendet werden, wenn sie dem Speicherkonto hinzugefügt werden.
+
++
+Tags sind in neuen Speicherkonten, die von der Konsole erstellt werden, standardmäßig deaktiviert. https://learn.microsoft.com/en-us/azure/storage/blobs/storage-manage-find-blobs["Weitere Informationen zum Taggen"^] .
+
+. Wählen Sie im Abschnitt „Verschlüsselung“ den Typ der Datenverschlüsselung aus, den Sie zum Schutz des Zugriffs auf die Daten im Speicherkonto verwenden möchten.
++
+[cols="25,75"]
+|===
+| Datenverschlüsselungstyp | Beschreibung 
+
+
+| Von Microsoft verwaltete Schlüssel | Standardmäßig werden von Microsoft verwaltete Verschlüsselungsschlüssel zum Verschlüsseln Ihrer Daten verwendet. 
+
+
+| Vom Kunden verwaltete Schlüssel  a| 
+Sie können für die Datenverschlüsselung Ihre eigenen, vom Kunden verwalteten Schlüssel verwenden, anstatt die standardmäßigen, von Microsoft verwalteten Verschlüsselungsschlüssel zu verwenden.  Wenn Sie Ihre eigenen, vom Kunden verwalteten Schlüssel verwenden möchten, müssen Sie diese bereits erstellt haben, damit Sie den Schlüsseltresor und die Schlüssel auf dieser Seite auswählen können.
+
+Die Schlüssel können sich im selben Abonnement wie das Speicherkonto befinden, oder Sie können ein anderes Abonnement auswählen.
+
+|===
++
+Weitere Informationen finden Sie in der Microsoft Azure-Dokumentation. https://learn.microsoft.com/en-us/azure/storage/common/storage-service-encryption["Weitere Informationen zu von Microsoft verwalteten Schlüsseln"^] , Und https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-overview["Weitere Informationen zu kundenverwalteten Schlüsseln"^] .
+
+. Wählen Sie *Hinzufügen*, um den Bucket zu erstellen.
+

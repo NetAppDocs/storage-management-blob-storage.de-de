@@ -1,0 +1,46 @@
+---
+sidebar: sidebar 
+permalink: task-view-azure-blob-storage.html 
+keywords: blob storage, blob system, azure blob storage accounts, azure blob working environment 
+summary: Nachdem Sie einen Konsolen-Agenten in Azure installiert haben, kann die NetApp Konsole automatisch Informationen zu den Azure-Speicherkonten ermitteln, die sich in den Azure-Abonnements befinden, in denen der Konsolen-Agent installiert ist. 
+---
+= Anzeigen Ihrer Azure Blob-Speicherkonten
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Nachdem Sie einen Konsolen-Agenten in Azure installiert haben, kann die NetApp Konsole automatisch Informationen zu den Azure-Speicherkonten ermitteln, die sich in den Azure-Abonnements befinden, in denen der Konsolen-Agent installiert ist.  Der Seite „Systeme“ wird ein Azure Blob-System hinzugefügt, damit Sie diese Informationen anzeigen können.
+
+Sie können Details zu Ihren Azure-Speicherkonten anzeigen, einschließlich Standort, Ressourcengruppe, genutzter Kapazität und mehr.  Diese Konten können als Ziele für Vorgänge von NetApp Backup and Recovery, NetApp Copy and Sync und NetApp Cloud Tiering verwendet werden.
+
+.Schritte
+. https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["Installieren eines Konsolenagenten"^]in dem Azure-Konto, in dem Sie Ihre Azure Blob-Speicherkonten anzeigen möchten.
+. Wählen Sie im Navigationsmenü *Speicher > Systeme*.
++
+Kurz darauf sollte automatisch ein Azure Blob Storage-System angezeigt werden.
+
++
+image:screenshot-azure-blob-we.png["Ein Screenshot eines Azure Blob Storage-Systems."]
+
+. Wählen Sie das System aus. Wenn Sie NetApp -Datendienste mit Ihrem Azure Blob-Speicher aktivieren möchten, wählen Sie im rechten Bereich eine Aktion aus
++
+link:task-blob-enable-data-services.html["Sehen Sie, welche Datendienste verfügbar sind, und erfahren Sie, wie Sie diese mit Ihren Azure Blob Storage-Konten nutzen können."] .
+
+. Wählen Sie *System eingeben* oder doppelklicken Sie auf das System, um Details zu den Azure-Speicherkonten anzuzeigen.
++
+image:screenshot-azure-blob-details.png["Ein Screenshot, der die Details eines Azure Blob-Systems zeigt: die Gesamtzahl der Speicherkonten, die Gesamtzahl der Standorte, Ressourcengruppen, die Gesamtkapazität und mehr."]
+
++
+Zusätzlich zu den standardmäßig angezeigten Spalten können Sie auf der Seite scrollen, um weitere Eigenschaften für das Speicherkonto anzuzeigen, beispielsweise die Anzahl der Tags und den aktivierten Verschlüsselungstyp.
+
+
+
+.Nächste Schritte
+Sie können einige Speicherkontoeinstellungen direkt in der Konsole ändern, indem Sieimage:button-horizontal-more.gif["die drei Punkte mehr-Schaltfläche"] für ein Speicherkonto. link:task-change-blob-storage-settings.html["Hier finden Sie weitere Einzelheiten"] .
+
+Sie können neue Buckets hinzufügen, indem Sie *Speicherkonto hinzufügen* auswählen. link:task-add-blob-storage.html["Hier finden Sie weitere Einzelheiten"] .

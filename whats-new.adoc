@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, limitations, known issues, enhancements, fixes' 
+summary: Informieren Sie sich über die Neuerungen bei Azure Blob Storage in der NetApp Konsole. 
+---
+= Was ist neu bei Azure Blob Storage in der NetApp Konsole?
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Informieren Sie sich über die Neuerungen bei Azure Blob Storage in der NetApp Konsole.
+
+
+
+== 06. Oktober 2025
+
+
+
+=== BlueXP heißt jetzt NetApp Console
+
+BlueXP wurde umbenannt und neu gestaltet, um seine Rolle bei der Verwaltung Ihrer Dateninfrastruktur besser widerzuspiegeln.
+
+Die NetApp Console ermöglicht eine zentrale Verwaltung von Speicher- und Datendiensten in lokalen und Cloud-Umgebungen auf Unternehmensebene und liefert Einblicke in Echtzeit, schnellere Workflows und eine vereinfachte Verwaltung.
+
+Einzelheiten zu den Änderungen finden Sie im https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Versionshinweise zur NetApp Konsole"] .
+
+
+
+== 05. Juni 2023
+
+
+
+=== Möglichkeit, neue Speicherkonten von BlueXP hinzuzufügen
+
+Sie haben schon seit einiger Zeit die Möglichkeit, Azure Blob Storage auf dem BlueXP Canvas anzuzeigen.  Jetzt können Sie direkt von BlueXP aus neue Speicherkonten hinzufügen und Eigenschaften für vorhandene Speicherkonten ändern. xref:../task-add-blob-storage.html[Erfahren Sie, wie Sie neue Azure Blob-Speicherkonten hinzufügen] .

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-change-blob-storage-settings.html 
 keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, system 
-summary: Sobald Ihr Azure Blob Storage-System auf der Seite „Systeme“ verfügbar ist, können Sie einige Speicherkontoeigenschaften direkt über die NetApp Konsole ändern. 
+summary: Sobald Ihr Azure Blob Storage-System auf der Seite „Systeme“ verfügbar ist, können Sie einige Speicherkontoeigenschaften direkt über die NetApp Console ändern. 
 ---
-= Ändern der Azure Blob Storage-Kontoeinstellungen in der NetApp Konsole
+= Ändern der Azure Blob Storage-Kontoeinstellungen in der NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Sobald Ihr Azure Blob Storage-System auf der Seite „Systeme“ verfü
 
 
 [role="lead"]
-Sobald Ihr Azure Blob Storage-System auf der Seite „Systeme“ verfügbar ist, können Sie einige Speicherkontoeigenschaften direkt über die NetApp Konsole ändern.
+Sobald Ihr Azure Blob Storage-System auf der Seite „Systeme“ verfügbar ist, können Sie einige Speicherkontoeigenschaften direkt über die NetApp Console ändern.
 
 Beachten Sie, dass Sie den Namen des Speicherkontos, die Azure-Region oder den Leistungstyp des Speichers nicht ändern können.
 

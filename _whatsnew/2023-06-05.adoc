@@ -6,4 +6,4 @@
 
 === Möglichkeit, neue Speicherkonten von BlueXP hinzuzufügen
 
-Sie haben schon seit einiger Zeit die Möglichkeit, Azure Blob Storage auf dem BlueXP Canvas anzuzeigen. Jetzt können Sie direkt von BlueXP aus neue Speicherkonten hinzufügen und Eigenschaften für vorhandene Speicherkonten ändern. link:https://docs.netapp.com/us-en/storage-management-blob-storage/["Erfahren Sie, wie Sie neue Azure Blob-Speicherkonten hinzufügen"^] .
+Sie haben schon seit einiger Zeit die Möglichkeit, Azure Blob Storage auf dem BlueXP Canvas anzuzeigen.  Jetzt können Sie direkt von BlueXP aus neue Speicherkonten hinzufügen und Eigenschaften für vorhandene Speicherkonten ändern. link:https://docs.netapp.com/us-en/storage-management-blob-storage/["Erfahren Sie, wie Sie neue Azure Blob-Speicherkonten hinzufügen"^] .

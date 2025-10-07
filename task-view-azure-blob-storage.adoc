@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-view-azure-blob-storage.html 
 keywords: blob storage, blob system, azure blob storage accounts, azure blob working environment 
-summary: Nachdem Sie einen Konsolen-Agenten in Azure installiert haben, kann die NetApp Konsole automatisch Informationen zu den Azure-Speicherkonten ermitteln, die sich in den Azure-Abonnements befinden, in denen der Konsolen-Agent installiert ist. 
+summary: Nachdem Sie einen Konsolen-Agenten in Azure installiert haben, kann die NetApp Console automatisch Informationen zu den Azure-Speicherkonten ermitteln, die sich in den Azure-Abonnements befinden, in denen der Konsolen-Agent installiert ist. 
 ---
 = Anzeigen Ihrer Azure Blob-Speicherkonten
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Nachdem Sie einen Konsolen-Agenten in Azure installiert haben, kann die
 
 
 [role="lead"]
-Nachdem Sie einen Konsolen-Agenten in Azure installiert haben, kann die NetApp Konsole automatisch Informationen zu den Azure-Speicherkonten ermitteln, die sich in den Azure-Abonnements befinden, in denen der Konsolen-Agent installiert ist.  Der Seite „Systeme“ wird ein Azure Blob-System hinzugefügt, damit Sie diese Informationen anzeigen können.
+Nachdem Sie einen Konsolen-Agenten in Azure installiert haben, kann die NetApp Console automatisch Informationen zu den Azure-Speicherkonten ermitteln, die sich in den Azure-Abonnements befinden, in denen der Konsolen-Agent installiert ist.  Der Seite „Systeme“ wird ein Azure Blob-System hinzugefügt, damit Sie diese Informationen anzeigen können.
 
 Sie können Details zu Ihren Azure-Speicherkonten anzeigen, einschließlich Standort, Ressourcengruppe, genutzter Kapazität und mehr.  Diese Konten können als Ziele für Vorgänge von NetApp Backup and Recovery, NetApp Copy and Sync und NetApp Cloud Tiering verwendet werden.
 
@@ -27,7 +27,7 @@ Kurz darauf sollte automatisch ein Azure Blob Storage-System angezeigt werden.
 +
 image:screenshot-azure-blob-we.png["Ein Screenshot eines Azure Blob Storage-Systems."]
 
-. Wählen Sie das System aus. Wenn Sie NetApp -Datendienste mit Ihrem Azure Blob-Speicher aktivieren möchten, wählen Sie im rechten Bereich eine Aktion aus
+. Wählen Sie das System aus.  Wenn Sie NetApp -Datendienste mit Ihrem Azure Blob-Speicher aktivieren möchten, wählen Sie im rechten Bereich eine Aktion aus
 +
 link:task-blob-enable-data-services.html["Sehen Sie, welche Datendienste verfügbar sind, und erfahren Sie, wie Sie diese mit Ihren Azure Blob Storage-Konten nutzen können."] .
 

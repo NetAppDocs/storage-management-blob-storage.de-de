@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-blob-enable-data-services.html 
 keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, system 
-summary: Nachdem Sie Azure Blob-Speicherkonten in der NetApp Konsole ermittelt haben, können Sie NetApp Datendienste für Sicherung, Tiering und Datensynchronisierung verwenden. 
+summary: Nachdem Sie Azure Blob-Speicherkonten in der NetApp Console ermittelt haben, können Sie NetApp Datendienste für Sicherung, Tiering und Datensynchronisierung verwenden. 
 ---
 = Verwenden von NetApp -Datendiensten mit Azure Blob Storage
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Nachdem Sie Azure Blob-Speicherkonten in der NetApp Konsole ermittelt h
 
 
 [role="lead"]
-Nachdem Sie Azure Blob-Speicherkonten in der NetApp Konsole ermittelt haben, können Sie NetApp Datendienste für Sicherung, Tiering und Datensynchronisierung verwenden.
+Nachdem Sie Azure Blob-Speicherkonten in der NetApp Console ermittelt haben, können Sie NetApp Datendienste für Sicherung, Tiering und Datensynchronisierung verwenden.
 
 * Verwenden Sie * NetApp Backup and Recovery*, um Daten von Ihren lokalen ONTAP und Cloud Volumes ONTAP -Systemen im Azure Blob-Speicher zu sichern.
 +

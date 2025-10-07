@@ -19,7 +19,7 @@ Nachdem Sie einen Konsolen-Agenten in Azure installiert haben, kann die NetApp K
 Sie können Details zu Ihren Azure-Speicherkonten anzeigen, einschließlich Standort, Ressourcengruppe, genutzter Kapazität und mehr.  Diese Konten können als Ziele für Vorgänge von NetApp Backup and Recovery, NetApp Copy and Sync und NetApp Cloud Tiering verwendet werden.
 
 .Schritte
-. https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["Installieren eines Konsolenagenten"^]in dem Azure-Konto, in dem Sie Ihre Azure Blob-Speicherkonten anzeigen möchten.
+. https://docs.netapp.com/us-en/console-setup-admin/task-quick-start-connector-azure.html["Installieren eines Konsolenagenten"^]in dem Azure-Konto, in dem Sie Ihre Azure Blob-Speicherkonten anzeigen möchten.
 . Wählen Sie im Navigationsmenü *Speicher > Systeme*.
 +
 Kurz darauf sollte automatisch ein Azure Blob Storage-System angezeigt werden.

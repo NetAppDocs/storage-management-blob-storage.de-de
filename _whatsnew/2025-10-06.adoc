@@ -10,4 +10,4 @@ BlueXP wurde umbenannt und neu gestaltet, um seine Rolle bei der Verwaltung Ihre
 
 Die NetApp Console ermöglicht eine zentrale Verwaltung von Speicher- und Datendiensten in lokalen und Cloud-Umgebungen auf Unternehmensebene und liefert Einblicke in Echtzeit, schnellere Workflows und eine vereinfachte Verwaltung.
 
-Einzelheiten zu den Änderungen finden Sie im https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Versionshinweise zur NetApp Konsole"] .
+Einzelheiten zu den Änderungen finden Sie im https://docs.netapp.com/us-en/console-relnotes/index.html["Versionshinweise zur NetApp Konsole"] .

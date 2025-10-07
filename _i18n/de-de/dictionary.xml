@@ -2,12 +2,10 @@
 <blocks>
   <block id="f9037e3eb23130835367334e3aa5a34b" category="doc">Möglichkeit, neue Speicherkonten von BlueXP hinzuzufügen</block>
   <block id="7e4c7c60d975edb27a163364c9868139" category="inline-xref-macro">Erfahren Sie, wie Sie neue Azure Blob-Speicherkonten hinzufügen</block>
-  <block id="f85f92208aecee0545b9eedb64b14672" category="paragraph">Sie haben schon seit einiger Zeit die Möglichkeit, Azure Blob Storage auf dem BlueXP Canvas anzuzeigen.  Jetzt können Sie direkt von BlueXP aus neue Speicherkonten hinzufügen und Eigenschaften für vorhandene Speicherkonten ändern. <block ref="127c39654391bed812f2268282064990" category="inline-xref-macro-rx"></block> .</block>
   <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXP heißt jetzt NetApp Console</block>
   <block id="745be0d280d894f70c3f88e76f519456" category="paragraph">BlueXP wurde umbenannt und neu gestaltet, um seine Rolle bei der Verwaltung Ihrer Dateninfrastruktur besser widerzuspiegeln.</block>
   <block id="7e4f7c37590688c797d9b40e3a3423e3" category="paragraph">Die NetApp Console ermöglicht eine zentrale Verwaltung von Speicher- und Datendiensten in lokalen und Cloud-Umgebungen auf Unternehmensebene und liefert Einblicke in Echtzeit, schnellere Workflows und eine vereinfachte Verwaltung.</block>
   <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link">Versionshinweise zur NetApp Konsole</block>
-  <block id="9d88b780dd182bc558e5dd7624d35838" category="paragraph">Einzelheiten zu den Änderungen finden Sie im<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block> .</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Rechtliche Hinweise</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Rechtliche Hinweise bieten Zugriff auf Urheberrechtserklärungen, Marken, Patente und mehr.</block>
@@ -28,7 +26,6 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Open Source</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Hinweisdateien enthalten Informationen zu Urheberrechten und Lizenzen Dritter, die in der NetApp -Software verwendet werden.</block>
   <block id="50dbf63cd0ab8144a287e5cd6a0f1de2" category="inline-link">Hinweis zur NetApp Konsole</block>
-  <block id="e672b1ea49afca81ea77f91f12f606ea" category="paragraph"><block ref="e672b1ea49afca81ea77f91f12f606ea" category="inline-link-rx"></block></block>
   <block id="3572522b9cf12bb382fd0920f5745fd0" category="summary">Sobald Ihr Azure Blob Storage-System auf der Systemseite der NetApp -Konsole verfügbar ist, können Sie weitere Speicherkonten direkt von der Konsole aus hinzufügen.</block>
   <block id="98249a942e9f70229e82c312e65b0c3e" category="doc">Azure Blob-Speicherkonten in der NetApp Konsole hinzufügen</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Schritte</block>
@@ -79,22 +76,18 @@
   <block id="518fa4ed7cef478f91e710fa235bf797" category="inline-link">Weitere Informationen zu kundenverwalteten Schlüsseln</block>
   <block id="1c996ef0ac245038c210c7f6136b7a5f" category="paragraph">Weitere Informationen finden Sie in der Microsoft Azure-Dokumentation.<block ref="00b60a199735a6cd55c721820633fd18" category="inline-link-rx"></block> , Und<block ref="179ce78dfc1dee8d313bdcb48c576259" category="inline-link-rx"></block> .</block>
   <block id="4075c13a9dc3ab5fe72584ab95dcb280" category="list-text">Wählen Sie *Hinzufügen*, um den Bucket zu erstellen.</block>
-  <block id="743c7f25a48e123c93c9fc954e6a69df" category="summary">Nachdem Sie Azure Blob-Speicherkonten in BlueXP entdeckt haben, können Sie NetApp -Datendienste für Sicherung, Tiering und Datensynchronisierung verwenden.</block>
   <block id="6650dfeb4f458c61b2949845625bd24c" category="doc">Verwenden von NetApp -Datendiensten mit Azure Blob Storage</block>
   <block id="1b2bcb14630e84f98ecf8fc8ba9e1bd7" category="paragraph">Nachdem Sie Azure Blob-Speicherkonten in der NetApp Konsole ermittelt haben, können Sie NetApp Datendienste für Sicherung, Tiering und Datensynchronisierung verwenden.</block>
   <block id="8244f0a4bfcb8635db2f91ef5aa1b9eb" category="list-text">Verwenden Sie * NetApp Backup and Recovery*, um Daten von Ihren lokalen ONTAP und Cloud Volumes ONTAP -Systemen im Azure Blob-Speicher zu sichern.</block>
   <block id="de91c1448816840d85691a77ebd16003" category="paragraph">Navigieren Sie zunächst zur Seite „Systeme“.  Ziehen Sie ein lokales ONTAP oder Cloud Volumes ONTAP -System per Drag &amp; Drop auf Ihr Azure Blob Storage-System.</block>
   <block id="d86f0808bf63647bc6d2990fee15f32a" category="inline-link">Erfahren Sie mehr über das Sichern von ONTAP -Daten im Azure Blob-Speicher</block>
-  <block id="95af42d58740cb6ef9743795caced435" category="paragraph"><block ref="a81ea9edabd79d5dc24a3011f7940a63" category="inline-link-rx"></block> .</block>
   <block id="95578947246790f85684248eaa680963" category="list-text">Verwenden Sie * NetApp Cloud Tiering*, um inaktive Daten von lokalen ONTAP Clustern in Azure Blob Storage zu verschieben.</block>
   <block id="565724b78e68c2fe59a7fe137cb67cf4" category="paragraph">Navigieren Sie zunächst zur Seite „Systeme“.  Ziehen Sie ein lokales ONTAP -System per Drag &amp; Drop auf Ihr Azure Blob Storage-System.</block>
   <block id="683411769b2e2b5ee5d1c8ac476393d4" category="inline-link">Erfahren Sie mehr über das Tiering von ONTAP -Daten in Azure Blob Storage</block>
-  <block id="f8f7dea78fa7518dbbdf96d1aafadc4b" category="paragraph"><block ref="55d91164053c84267300c3db4638255c" category="inline-link-rx"></block> .</block>
   <block id="fbf760e5fd50e3458e72728d6cfcdd8c" category="list-text">Verwenden Sie * NetApp Copy and Sync*, um Daten mit oder von Azure Blob-Speicherkonten zu synchronisieren.</block>
   <block id="92f68f59c4c56b8e291f44d42de2d134" category="paragraph">Navigieren Sie zunächst zur Seite „Systeme“.  Ziehen Sie das Quellsystem per Drag &amp; Drop auf das Zielsystem.  Ihr Azure Blob Storage-System kann entweder die Quelle oder das Ziel sein.</block>
   <block id="ae6c3cec15a4ac482ea9a67236df0484" category="paragraph">Sie können auch Ihr Azure Blob Storage-System auswählen und dann im Bereich „Dienste“ auf „Kopieren und Synchronisieren“ klicken, um Daten mit oder von Azure Blob Storage-Konten zu synchronisieren.</block>
   <block id="457a1cf5fd2ca976e622a9a914d24bad" category="inline-link">Erfahren Sie mehr über Kopieren und Synchronisieren</block>
-  <block id="390b3380d403721d5ae98adafc131592" category="paragraph"><block ref="f9b2d2345f65b81f6f23df634577d11f" category="inline-link-rx"></block> .</block>
   <block id="3cdcdc716a6a72fc6747db0e7fc271df" category="summary">Sobald Ihr Azure Blob Storage-System auf der Seite „Systeme“ verfügbar ist, können Sie einige Speicherkontoeigenschaften direkt über die NetApp Konsole ändern.</block>
   <block id="326e8a2426191fe14f044e4c0c5c2763" category="doc">Ändern der Azure Blob Storage-Kontoeinstellungen in der NetApp Konsole</block>
   <block id="e4d20ea28e0dccf4440f8908211c905a" category="paragraph">Beachten Sie, dass Sie den Namen des Speicherkontos, die Azure-Region oder den Leistungstyp des Speichers nicht ändern können.</block>
@@ -204,7 +197,6 @@
   <block id="9d25e9a3093ef1c625de6c96383dadc4" category="paragraph">Nachdem Sie einen Konsolen-Agenten in Azure installiert haben, kann die NetApp Konsole automatisch Informationen zu den Azure-Speicherkonten ermitteln, die sich in den Azure-Abonnements befinden, in denen der Konsolen-Agent installiert ist.  Der Seite „Systeme“ wird ein Azure Blob-System hinzugefügt, damit Sie diese Informationen anzeigen können.</block>
   <block id="3decc2b25551b75d7f00f21ece6c37ea" category="paragraph">Sie können Details zu Ihren Azure-Speicherkonten anzeigen, einschließlich Standort, Ressourcengruppe, genutzter Kapazität und mehr.  Diese Konten können als Ziele für Vorgänge von NetApp Backup and Recovery, NetApp Copy and Sync und NetApp Cloud Tiering verwendet werden.</block>
   <block id="947d9294996f8955f80ff03bc9f99324" category="inline-link">Installieren eines Konsolenagenten</block>
-  <block id="e305470faa4bea1f1f5144045f2855a6" category="list-text"><block ref="fa576e0e09315256214eb07edac2adf4" category="inline-link-rx"></block>in dem Azure-Konto, in dem Sie Ihre Azure Blob-Speicherkonten anzeigen möchten.</block>
   <block id="59bd34e0021703b8d6db7819960639e9" category="list-text">Wählen Sie im Navigationsmenü *Speicher &gt; Systeme*.</block>
   <block id="a447fa14efc2bf91db07251c38fac4e1" category="paragraph">Kurz darauf sollte automatisch ein Azure Blob Storage-System angezeigt werden.</block>
   <block id="86224655d8b1f0ade9e896b9fcf0b60c" category="inline-image-macro">Ein Screenshot eines Azure Blob Storage-Systems.</block>
@@ -241,4 +233,11 @@
   <block id="baf9c0d022fa9e7a85fa77eeb954adbd" category="sidebar">Neue Speicherkonten hinzufügen</block>
   <block id="0143afd4b3b57a4efca22155b835b7f2" category="sidebar">Ändern der Speicherkontoeinstellungen</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Wissen und Unterstützung</block>
+  <block id="986ddb500dcbfc5d9995ab28bc27a477" category="paragraph">Sie haben schon seit einiger Zeit die Möglichkeit, Azure Blob Storage auf dem BlueXP Canvas anzuzeigen. Jetzt können Sie direkt von BlueXP aus neue Speicherkonten hinzufügen und Eigenschaften für vorhandene Speicherkonten ändern. <block ref="da5959ee38843473d9246184c88364f6" category="inline-link-macro-rx"></block> .</block>
+  <block id="7c2f2b72d5ae6fd05d7d6047507f2af7" category="paragraph">Einzelheiten zu den Änderungen finden Sie im<block ref="55233a601a39d3cf31ec58df3f760d9b" category="inline-link-rx"></block> .</block>
+  <block id="c87093fc5ce0aab848deaeae14c761b9" category="paragraph"><block ref="c87093fc5ce0aab848deaeae14c761b9" category="inline-link-rx"></block></block>
+  <block id="0acdb79db506f71e141b4b858a143a05" category="paragraph"><block ref="ac49df85e776f3658144e4570d832c99" category="inline-link-rx"></block> .</block>
+  <block id="5de458d476f48f2b48be07aaa2ed728d" category="paragraph"><block ref="fa6adc59d924d47a66d1ce7306342ebd" category="inline-link-rx"></block> .</block>
+  <block id="b7a9d1a982d7ad533f67bfcc152c0150" category="paragraph"><block ref="eb3ec74247e0c67b8ffacea7d75f8527" category="inline-link-rx"></block> .</block>
+  <block id="de55cf1dcb46cf880eafc22afc211f46" category="list-text"><block ref="2ffbb079efc75d97cc35ff4a4c0cfde8" category="inline-link-rx"></block>in dem Azure-Konto, in dem Sie Ihre Azure Blob-Speicherkonten anzeigen möchten.</block>
 </blocks>
